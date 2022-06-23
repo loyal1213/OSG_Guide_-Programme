@@ -3,6 +3,20 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "automaticity", "automaticity.vcxproj", "{63CBB0DA-94D9-496B-BB4C-55A514D158E9}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "application", "..\application\application.vcxproj", "{E0590072-3F34-44F4-90AC-048A301E4D26}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "theory", "theory\theory.vcxproj", "{521C7F4B-484A-4AE7-9AA6-7E757E5DD52B}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "camera", "camera\camera.vcxproj", "{82175C0E-B48B-4F04-9F70-40CD0D59E0C1}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "interface", "interface\interface.vcxproj", "{AB82EDA8-4812-46B1-A629-B8C10AFD940D}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "shader", "shader\shader.vcxproj", "{AC2AC470-0C9B-44CB-8E08-6D0665EA15E9}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "animation", "animation\animation.vcxproj", "{7D69CCFB-53E9-4F0D-A4F0-BA6A7DAE0C42}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ocean_terrain", "ocean_terrain\ocean_terrain.vcxproj", "{1EAE481C-EC66-4E93-8848-81E1508E00DD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -13,6 +27,34 @@ Global
 		{63CBB0DA-94D9-496B-BB4C-55A514D158E9}.Debug|Win32.Build.0 = Debug|Win32
 		{63CBB0DA-94D9-496B-BB4C-55A514D158E9}.Release|Win32.ActiveCfg = Release|Win32
 		{63CBB0DA-94D9-496B-BB4C-55A514D158E9}.Release|Win32.Build.0 = Release|Win32
+		{E0590072-3F34-44F4-90AC-048A301E4D26}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E0590072-3F34-44F4-90AC-048A301E4D26}.Debug|Win32.Build.0 = Debug|Win32
+		{E0590072-3F34-44F4-90AC-048A301E4D26}.Release|Win32.ActiveCfg = Release|Win32
+		{E0590072-3F34-44F4-90AC-048A301E4D26}.Release|Win32.Build.0 = Release|Win32
+		{521C7F4B-484A-4AE7-9AA6-7E757E5DD52B}.Debug|Win32.ActiveCfg = Debug|Win32
+		{521C7F4B-484A-4AE7-9AA6-7E757E5DD52B}.Debug|Win32.Build.0 = Debug|Win32
+		{521C7F4B-484A-4AE7-9AA6-7E757E5DD52B}.Release|Win32.ActiveCfg = Release|Win32
+		{521C7F4B-484A-4AE7-9AA6-7E757E5DD52B}.Release|Win32.Build.0 = Release|Win32
+		{82175C0E-B48B-4F04-9F70-40CD0D59E0C1}.Debug|Win32.ActiveCfg = Debug|Win32
+		{82175C0E-B48B-4F04-9F70-40CD0D59E0C1}.Debug|Win32.Build.0 = Debug|Win32
+		{82175C0E-B48B-4F04-9F70-40CD0D59E0C1}.Release|Win32.ActiveCfg = Release|Win32
+		{82175C0E-B48B-4F04-9F70-40CD0D59E0C1}.Release|Win32.Build.0 = Release|Win32
+		{AB82EDA8-4812-46B1-A629-B8C10AFD940D}.Debug|Win32.ActiveCfg = Debug|Win32
+		{AB82EDA8-4812-46B1-A629-B8C10AFD940D}.Debug|Win32.Build.0 = Debug|Win32
+		{AB82EDA8-4812-46B1-A629-B8C10AFD940D}.Release|Win32.ActiveCfg = Release|Win32
+		{AB82EDA8-4812-46B1-A629-B8C10AFD940D}.Release|Win32.Build.0 = Release|Win32
+		{AC2AC470-0C9B-44CB-8E08-6D0665EA15E9}.Debug|Win32.ActiveCfg = Debug|Win32
+		{AC2AC470-0C9B-44CB-8E08-6D0665EA15E9}.Debug|Win32.Build.0 = Debug|Win32
+		{AC2AC470-0C9B-44CB-8E08-6D0665EA15E9}.Release|Win32.ActiveCfg = Release|Win32
+		{AC2AC470-0C9B-44CB-8E08-6D0665EA15E9}.Release|Win32.Build.0 = Release|Win32
+		{7D69CCFB-53E9-4F0D-A4F0-BA6A7DAE0C42}.Debug|Win32.ActiveCfg = Debug|Win32
+		{7D69CCFB-53E9-4F0D-A4F0-BA6A7DAE0C42}.Debug|Win32.Build.0 = Debug|Win32
+		{7D69CCFB-53E9-4F0D-A4F0-BA6A7DAE0C42}.Release|Win32.ActiveCfg = Release|Win32
+		{7D69CCFB-53E9-4F0D-A4F0-BA6A7DAE0C42}.Release|Win32.Build.0 = Release|Win32
+		{1EAE481C-EC66-4E93-8848-81E1508E00DD}.Debug|Win32.ActiveCfg = Debug|Win32
+		{1EAE481C-EC66-4E93-8848-81E1508E00DD}.Debug|Win32.Build.0 = Debug|Win32
+		{1EAE481C-EC66-4E93-8848-81E1508E00DD}.Release|Win32.ActiveCfg = Release|Win32
+		{1EAE481C-EC66-4E93-8848-81E1508E00DD}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
