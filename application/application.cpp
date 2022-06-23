@@ -3,9 +3,12 @@
 
 #include "stdafx.h"
 
+#include "第3讲 osgviewer 应用基础 01.hpp"
 
 int _tmain(int argc, _TCHAR* argv[])
 {
+	// 第3讲 osgviewer 应用基础 01
+	test_osgviewer();
 	return 0;
 }
 
