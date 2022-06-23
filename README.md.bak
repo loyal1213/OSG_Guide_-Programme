@@ -22,8 +22,6 @@ C:\Program Files (x86)\OsgEarth\osgearth\lib;
 
 
 附加依赖项:
-
-debug:
 osgGAd.lib
 osgSimd.lib
 osgViewerd.lib
@@ -48,5 +46,3 @@ osgEarthSplatd.lib
 osgEarthUtild.lib
 osgEarthFeaturesd.lib
 osgEarthSymbologyd.lib
-
-release:
