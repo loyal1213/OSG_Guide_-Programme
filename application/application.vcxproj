@@ -87,6 +87,7 @@
     <ClInclude Include="targetver.h" />
     <ClInclude Include="第3讲 osgviewer 应用基础 01.hpp" />
     <ClInclude Include="第5讲 基本图元%28上%29.hpp" />
+    <ClInclude Include="第6讲 基本图元(下).hpp" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="application.cpp" />
