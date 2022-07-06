@@ -33,6 +33,18 @@
     <ClInclude Include="第6讲 基本图元(下).hpp">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="第7讲 矩阵操作(上).hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="3_2_2 布告板示例.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="3_3_1位置变换节点.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="3_3_4 矩阵变换节点示例.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
