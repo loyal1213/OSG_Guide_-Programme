@@ -19,6 +19,9 @@
 # Fortran module files
 *.mod
 *.smod
+*.tlog
+*.obj
+*.pdb
 
 # Compiled Static libraries
 *.lai
@@ -30,6 +33,7 @@
 *.exe
 *.out
 *.app
+*.log
 
 # User-specific files
 *.user
@@ -38,14 +42,14 @@
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
 # Build results
-[Dd]ebug/
-[Dd]ebugPublic/
-[Rr]elease/
-[Rr]eleases/
-x64/
-x86/
+[Dd]ebug/*
+[Dd]ebugPublic/*
+[Rr]elease/*
+[Rr]eleases/*
+x64/*
+x86/*
 bld/
-Ipc/*
+ipch/*
 
 [Bb]in/
 [Oo]bj/
