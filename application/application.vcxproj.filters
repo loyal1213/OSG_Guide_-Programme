@@ -45,6 +45,18 @@
     <ClInclude Include="3_3_4 矩阵变换节点示例.hpp">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="3_3_5 自动对齐节点.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="3_3_7 开关节点.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="3_3_10 细节层次节点示例.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="3_3_12 分页细节层次节点示例.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
