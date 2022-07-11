@@ -96,8 +96,10 @@
     <ClInclude Include="7_3_2 节点回调示例.hpp" />
     <ClInclude Include="7_3_3 事件回调示例.hpp" />
     <ClInclude Include="8_2_2 键盘事件消息处理.hpp" />
+    <ClInclude Include="8_2_4 场景漫游.hpp" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
+    <ClInclude Include="TravelManipulator.h" />
     <ClInclude Include="第3讲 osgviewer 应用基础 01.hpp" />
     <ClInclude Include="第5讲 基本图元%28上%29.hpp" />
     <ClInclude Include="第6讲 基本图元(下).hpp" />

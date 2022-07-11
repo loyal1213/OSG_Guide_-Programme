@@ -72,6 +72,12 @@
     <ClInclude Include="8_2_2 键盘事件消息处理.hpp">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="8_2_4 场景漫游.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TravelManipulator.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
