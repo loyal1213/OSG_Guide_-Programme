@@ -14,7 +14,11 @@
 #include "3_3_7 开关节点.hpp"
 #include "3_3_10 细节层次节点示例.hpp"
 #include "3_3_12 分页细节层次节点示例.hpp"
-
+#include "3_3_13 替代节点.hpp"
+#include "3_3_18 坐标系节点示例.hpp"
+#include "7_3_3 事件回调示例.hpp"
+#include "7_3_2 节点回调示例.hpp"
+#include "8_2_2 键盘事件消息处理.hpp"
 int _tmain(int argc, _TCHAR* argv[])
 {
 	// 第3讲 osgviewer 应用基础 01
@@ -29,7 +33,11 @@ int _tmain(int argc, _TCHAR* argv[])
 	// TestAutoTransform();
 	// TestSwitch();
 	// TestLod();
-	TestPageLod();
+	// TestPageLod();
+	// TestImpostor();
+	// TestEventCallback();
+	// TestRotateCallBack();
+	TestEventHandle();
 	return 0;
 }
 

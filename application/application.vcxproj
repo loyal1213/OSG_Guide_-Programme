@@ -87,10 +87,15 @@
     <ClInclude Include="3_2_2 布告板示例.hpp" />
     <ClInclude Include="3_3_10 细节层次节点示例.hpp" />
     <ClInclude Include="3_3_12 分页细节层次节点示例.hpp" />
+    <ClInclude Include="3_3_13 替代节点.hpp" />
+    <ClInclude Include="3_3_18 坐标系节点示例.hpp" />
     <ClInclude Include="3_3_1位置变换节点.hpp" />
     <ClInclude Include="3_3_4 矩阵变换节点示例.hpp" />
     <ClInclude Include="3_3_5 自动对齐节点.hpp" />
     <ClInclude Include="3_3_7 开关节点.hpp" />
+    <ClInclude Include="7_3_2 节点回调示例.hpp" />
+    <ClInclude Include="7_3_3 事件回调示例.hpp" />
+    <ClInclude Include="8_2_2 键盘事件消息处理.hpp" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
     <ClInclude Include="第3讲 osgviewer 应用基础 01.hpp" />
