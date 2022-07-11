@@ -1,3 +1,30 @@
-﻿  stdafx.cpp
-  automaticity.cpp
-  automaticity.vcxproj -> E:\the_way_code\vs_2010\osg_guide_programme\automaticity\Debug\automaticity.exe
+﻿生成启动时间为 2022/7/11 11:07:02。
+     1>项目“G:\the_way_coder_learn\vs_project\vs_2010\osg_guide_programme\automaticity\automaticity.vcxproj”在节点 5 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Debug\automaticity.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         E:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Debug\automaticity.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         E:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\automaticity.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt automaticity.cpp
+         automaticity.cpp
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\automaticity.exe.embed.manifest.res" Debug\automaticity_manifest.rc 
+       Link:
+         E:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"G:\the_way_coder_learn\vs_project\vs_2010\osg_guide_programme\automaticity\Debug\automaticity.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\automaticity.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"G:\the_way_coder_learn\vs_project\vs_2010\osg_guide_programme\automaticity\Debug\automaticity.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"G:\the_way_coder_learn\vs_project\vs_2010\osg_guide_programme\automaticity\Debug\automaticity.lib" /MACHINE:X86 Debug\automaticity.exe.embed.manifest.res
+         Debug\automaticity.obj
+         Debug\stdafx.obj
+         LINK : 没有找到 G:\the_way_coder_learn\vs_project\vs_2010\osg_guide_programme\automaticity\Debug\automaticity.exe 或上一个增量链接没有生成它；正在执行完全链接
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\automaticity.exe.embed.manifest" /manifest Debug\automaticity.exe.intermediate.manifest
+         所有输出均为最新。
+       LinkEmbedManifest:
+         所有输出均为最新。
+         automaticity.vcxproj -> G:\the_way_coder_learn\vs_project\vs_2010\osg_guide_programme\automaticity\Debug\automaticity.exe
+       FinalizeBuildStatus:
+         正在删除文件“Debug\automaticity.unsuccessfulbuild”。
+         正在对“Debug\automaticity.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“G:\the_way_coder_learn\vs_project\vs_2010\osg_guide_programme\automaticity\automaticity.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.45
