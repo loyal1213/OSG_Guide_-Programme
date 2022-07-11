@@ -16,13 +16,13 @@ class TravelManipulator : public osgGA::CameraManipulator
 {
 public:
 	// 构造函数
-	TravelManipulator(void){}
+	TravelManipulator(void);
 
 	// 析构函数
-	virtual ~TravelManipulator(void){}
+	virtual ~TravelManipulator(void);
 
 	// 把漫游加入到场景之中
-	static TravelManipulator* TravelToScreen(osg::ref_ptr<osgViewer> viewer); 
+	static TravelManipulator* TravelToScreen(osg::ref_ptr<osgViewer::Viewer> viewer); 
 
 private:
 	osg::ref_ptr<osgViewer::Viewer> m_pHostViewer;
@@ -44,16 +44,16 @@ public:
 
 	
 	// 设置矩阵
-	virtual void setByMatrix(const osg::Matrixd& matrix) = 0;
+	virtual void setByMatrix(const osg::Matrixd& matrix);
 
 	// 设置逆矩阵
-	virtual void setByInverseMatrix(const osg::Matrixd& matrix) = 0;
+	virtual void setByInverseMatrix(const osg::Matrixd& matrix);
 
 	// 	得到矩阵
-	virtual osg::Matrixd getMatrix() const = 0;
+	virtual osg::Matrixd getMatrix() const;
 
 	//  得到逆矩阵
-	virtual osg::Matrixd getInverseMatrix() const = 0;
+	virtual osg::Matrixd getInverseMatrix() const;
 
 	// 事件处理函数
 	virtual bool handle(const osgGA::GUIEventAdapter& ea, osgGA::GUIActionAdapter& aa);
@@ -62,7 +62,7 @@ public:
 	float m_fAngle;
 
 	// 位置变换函数
-	float ChangePosition(osg::Vec3& delta);
+	void ChangePosition(osg::Vec3& delta);
 
 	// 碰撞检测是否开启
 	bool m_bPeng;
@@ -78,4 +78,5 @@ public:
 	osg::Vec3 GetPosition();
 
 };
+
 

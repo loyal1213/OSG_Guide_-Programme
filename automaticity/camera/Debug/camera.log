@@ -1,28 +1,16 @@
-﻿生成启动时间为 2022/7/11 11:07:02。
+﻿生成启动时间为 2022/7/11 17:59:14。
      1>项目“G:\the_way_coder_learn\vs_project\vs_2010\osg_guide_programme\automaticity\camera\camera.vcxproj”在节点 6 上(build 个目标)。
      1>InitializeBuildStatus:
          正在创建“Debug\camera.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
        ClCompile:
-         E:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Debug\camera.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
-         stdafx.cpp
-         E:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\camera.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt camera.cpp Compass.cpp
-         Compass.cpp
-         camera.cpp
-         正在生成代码...
+         所有输出均为最新。
+         所有输出均为最新。
        ManifestResourceCompile:
-         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\camera.exe.embed.manifest.res" Debug\camera_manifest.rc 
+         所有输出均为最新。
        Link:
-         E:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"G:\the_way_coder_learn\vs_project\vs_2010\osg_guide_programme\automaticity\Debug\camera.exe" /INCREMENTAL /NOLOGO osgGAd.lib osgSimd.lib osgViewerd.lib OpenThreadsd.lib osgManipulatord.lib osgTerraind.lib osgVolumed.lib osgAnimationd.lib osgParticled.lib osgTextd.lib osgWidgetd.lib osgd.lib osgDBd.lib osgPresentationd.lib osgUId.lib osgFXd.lib osgShadowd.lib osgUtild.lib osgEarthd.lib osgEarthAnnotationd.lib osgEarthSplatd.lib osgEarthUtild.lib osgEarthFeaturesd.lib osgEarthSymbologyd.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\camera.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"G:\the_way_coder_learn\vs_project\vs_2010\osg_guide_programme\automaticity\Debug\camera.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"G:\the_way_coder_learn\vs_project\vs_2010\osg_guide_programme\automaticity\Debug\camera.lib" /MACHINE:X86 Debug\camera.exe.embed.manifest.res
-         Debug\camera.obj
-         Debug\Compass.obj
-         Debug\stdafx.obj
-         LINK : 没有找到 G:\the_way_coder_learn\vs_project\vs_2010\osg_guide_programme\automaticity\Debug\camera.exe 或上一个增量链接没有生成它；正在执行完全链接
+         所有输出均为最新。
        Manifest:
-         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\camera.exe.embed.manifest" /manifest Debug\camera.exe.intermediate.manifest
          所有输出均为最新。
-       LinkEmbedManifest:
-         所有输出均为最新。
-         camera.vcxproj -> G:\the_way_coder_learn\vs_project\vs_2010\osg_guide_programme\automaticity\Debug\camera.exe
        FinalizeBuildStatus:
          正在删除文件“Debug\camera.unsuccessfulbuild”。
          正在对“Debug\camera.lastbuildstate”执行 Touch 任务。
@@ -30,4 +18,4 @@
 
 生成成功。
 
-已用时间 00:00:15.36
+已用时间 00:00:00.06
