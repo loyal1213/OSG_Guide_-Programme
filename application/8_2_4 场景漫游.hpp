@@ -8,6 +8,36 @@
 	3. 如何控制当前的速度
 	4. 是否开启碰撞检测
 	5. 如何设置出生位置
-
-
 */
+#include  "TravelManipulator.h"
+#include <osgDB/ReadFile>
+#include <osgDB/WriteFile>
+
+#include <osgUtil/Optimizer>
+
+void TestTravelManipulator(){
+
+	// 创建 viewer 对象， 场景浏览器
+	osg::ref_ptr<osgViewer::Viewer> viewer = new osgViewer::Viewer();
+
+	// 将漫游器加入到场景中
+	TravelManipulator::TravelToScreen(viewer.get());
+
+	osg::ref_ptr<osg::Group> root = new osg::Group();
+
+	// 读取模型
+	osg::ref_ptr<osg::Node> node = osgDB::readNodeFile("cow.osg");
+
+	root->addChild(node.get());
+
+
+	// 优化场景
+	osgUtil::Optimizer optimizer;
+	optimizer.optimize(root.get());
+
+	viewer->setSceneData(root.get());
+
+	viewer->realize();
+	viewer->run();
+
+}

@@ -19,6 +19,7 @@
 #include "7_3_3 事件回调示例.hpp"
 #include "7_3_2 节点回调示例.hpp"
 #include "8_2_2 键盘事件消息处理.hpp"
+#include "8_2_4 场景漫游.hpp"
 int _tmain(int argc, _TCHAR* argv[])
 {
 	// 第3讲 osgviewer 应用基础 01
@@ -37,7 +38,8 @@ int _tmain(int argc, _TCHAR* argv[])
 	// TestImpostor();
 	// TestEventCallback();
 	// TestRotateCallBack();
-	TestEventHandle();
+	// TestEventHandle();
+	TestTravelManipulator();
 	return 0;
 }
 
