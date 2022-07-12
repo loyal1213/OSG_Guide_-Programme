@@ -78,6 +78,21 @@
     <ClInclude Include="TravelManipulator.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="8_2_7 路径漫游示例.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="OSG粒子飞行尾迹.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="EarthWalkManipulato.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="基于OE自定义自由飞行漫游器(初级版).hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="osganimate.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -87,6 +102,9 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="TravelManipulator.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="EarthWalkManipulato.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

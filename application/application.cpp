@@ -20,12 +20,14 @@
 #include "7_3_2 节点回调示例.hpp"
 #include "8_2_2 键盘事件消息处理.hpp"
 #include "8_2_4 场景漫游.hpp"
-int _tmain(int argc, _TCHAR* argv[])
+#include "OSG粒子飞行尾迹.hpp"
+#include "基于OE自定义自由飞行漫游器(初级版).hpp"
+#include "osganimate.hpp"
+
+int _tmain(int argc, char* argv[])
 {
-	// 第3讲 osgviewer 应用基础 01
 	// test_osgviewer();
 	// TestGeode();
-	// 第6讲 基本图元下
 	// TestGeom();
 	// TestMatrix();
 	// TestBillboard();
@@ -39,7 +41,12 @@ int _tmain(int argc, _TCHAR* argv[])
 	// TestEventCallback();
 	// TestRotateCallBack();
 	// TestEventHandle();
-	TestTravelManipulator();
+	// TestTravelManipulator();
+
+	// TestTrail();
+
+	// TestEarthWalk(argc,argv);
+	TestOsgAnimate();
 	return 0;
 }
 
