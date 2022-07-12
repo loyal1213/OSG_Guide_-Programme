@@ -97,9 +97,14 @@
     <ClInclude Include="7_3_3 事件回调示例.hpp" />
     <ClInclude Include="8_2_2 键盘事件消息处理.hpp" />
     <ClInclude Include="8_2_4 场景漫游.hpp" />
+    <ClInclude Include="8_2_7 路径漫游示例.hpp" />
+    <ClInclude Include="EarthWalkManipulato.h" />
+    <ClInclude Include="osganimate.hpp" />
+    <ClInclude Include="OSG粒子飞行尾迹.hpp" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
     <ClInclude Include="TravelManipulator.h" />
+    <ClInclude Include="基于OE自定义自由飞行漫游器(初级版).hpp" />
     <ClInclude Include="第3讲 osgviewer 应用基础 01.hpp" />
     <ClInclude Include="第5讲 基本图元%28上%29.hpp" />
     <ClInclude Include="第6讲 基本图元(下).hpp" />
@@ -107,6 +112,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="application.cpp" />
+    <ClCompile Include="EarthWalkManipulato.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>

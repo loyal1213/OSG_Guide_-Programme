@@ -1,21 +1,51 @@
-﻿生成启动时间为 2022/7/11 17:59:14。
-     1>项目“G:\the_way_coder_learn\vs_project\vs_2010\osg_guide_programme\application\application.vcxproj”在节点 8 上(build 个目标)。
+﻿生成启动时间为 2022/7/12 18:37:59。
+     1>项目“G:\the_way_coder_learn\vs_project\vs_2010\osg_guide_programme\application\application.vcxproj”在节点 3 上(build 个目标)。
      1>InitializeBuildStatus:
          正在创建“Debug\application.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
        ClCompile:
          所有输出均为最新。
-         所有输出均为最新。
-       ManifestResourceCompile:
-         所有输出均为最新。
-       Link:
-         所有输出均为最新。
-       Manifest:
-         所有输出均为最新。
-       FinalizeBuildStatus:
-         正在删除文件“Debug\application.unsuccessfulbuild”。
-         正在对“Debug\application.lastbuildstate”执行 Touch 任务。
-     1>已完成生成项目“G:\the_way_coder_learn\vs_project\vs_2010\osg_guide_programme\application\application.vcxproj”(build 个目标)的操作。
+         E:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\application.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt application.cpp
+         application.cpp
+     1>g:\the_way_coder_learn\vs_project\vs_2010\osg_guide_programme\application\第6讲 基本图元(下).hpp(35): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“osg::Geometry::AttributeBinding”
+     1>g:\the_way_coder_learn\vs_project\vs_2010\osg_guide_programme\application\第6讲 基本图元(下).hpp(40): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“osg::Geometry::AttributeBinding”
+     1>g:\the_way_coder_learn\vs_project\vs_2010\osg_guide_programme\application\osganimate.hpp(30): error C3083: “Features”:“::”左侧的符号必须是一种类型
+     1>g:\the_way_coder_learn\vs_project\vs_2010\osg_guide_programme\application\osganimate.hpp(30): error C2039: “Feature”: 不是“osgEarth”的成员
+     1>g:\the_way_coder_learn\vs_project\vs_2010\osg_guide_programme\application\osganimate.hpp(30): error C2065: “Feature”: 未声明的标识符
+     1>g:\the_way_coder_learn\vs_project\vs_2010\osg_guide_programme\application\osganimate.hpp(30): error C2065: “m_pFeature”: 未声明的标识符
+     1>g:\the_way_coder_learn\vs_project\vs_2010\osg_guide_programme\application\osganimate.hpp(31): error C3083: “Annotation”:“::”左侧的符号必须是一种类型
+     1>g:\the_way_coder_learn\vs_project\vs_2010\osg_guide_programme\application\osganimate.hpp(31): error C2039: “FeatureNode”: 不是“osgEarth”的成员
+     1>g:\the_way_coder_learn\vs_project\vs_2010\osg_guide_programme\application\osganimate.hpp(31): error C2065: “FeatureNode”: 未声明的标识符
+     1>g:\the_way_coder_learn\vs_project\vs_2010\osg_guide_programme\application\osganimate.hpp(31): error C2065: “m_pFeatureNode”: 未声明的标识符
+     1>g:\the_way_coder_learn\vs_project\vs_2010\osg_guide_programme\application\osganimate.hpp(42): error C2065: “m_pFeature”: 未声明的标识符
+     1>g:\the_way_coder_learn\vs_project\vs_2010\osg_guide_programme\application\osganimate.hpp(42): error C3083: “Features”:“::”左侧的符号必须是一种类型
+     1>g:\the_way_coder_learn\vs_project\vs_2010\osg_guide_programme\application\osganimate.hpp(42): error C2039: “Feature”: 不是“osgEarth”的成员
+     1>g:\the_way_coder_learn\vs_project\vs_2010\osg_guide_programme\application\osganimate.hpp(42): error C2061: 语法错误: 标识符“Feature”
+     1>g:\the_way_coder_learn\vs_project\vs_2010\osg_guide_programme\application\osganimate.hpp(42): error C3083: “Annotation”:“::”左侧的符号必须是一种类型
+     1>g:\the_way_coder_learn\vs_project\vs_2010\osg_guide_programme\application\osganimate.hpp(43): error C2065: “m_pFeatureNode”: 未声明的标识符
+     1>g:\the_way_coder_learn\vs_project\vs_2010\osg_guide_programme\application\osganimate.hpp(43): error C3083: “Annotation”:“::”左侧的符号必须是一种类型
+     1>g:\the_way_coder_learn\vs_project\vs_2010\osg_guide_programme\application\osganimate.hpp(43): error C2039: “FeatureNode”: 不是“osgEarth”的成员
+     1>g:\the_way_coder_learn\vs_project\vs_2010\osg_guide_programme\application\osganimate.hpp(43): error C2061: 语法错误: 标识符“FeatureNode”
+     1>g:\the_way_coder_learn\vs_project\vs_2010\osg_guide_programme\application\osganimate.hpp(44): error C2065: “m_pFeatureNode”: 未声明的标识符
+     1>g:\the_way_coder_learn\vs_project\vs_2010\osg_guide_programme\application\osganimate.hpp(46): error C2065: “m_pFeature”: 未声明的标识符
+     1>g:\the_way_coder_learn\vs_project\vs_2010\osg_guide_programme\application\osganimate.hpp(46): error C2227: “->getGeometry”的左边必须指向类/结构/联合/泛型类型
+                 类型是“'unknown-type'”
+     1>g:\the_way_coder_learn\vs_project\vs_2010\osg_guide_programme\application\osganimate.hpp(46): error C2227: “->clear”的左边必须指向类/结构/联合/泛型类型
+     1>g:\the_way_coder_learn\vs_project\vs_2010\osg_guide_programme\application\osganimate.hpp(47): error C2065: “m_pFeatureNode”: 未声明的标识符
+     1>g:\the_way_coder_learn\vs_project\vs_2010\osg_guide_programme\application\osganimate.hpp(47): error C2227: “->setStyle”的左边必须指向类/结构/联合/泛型类型
+                 类型是“'unknown-type'”
+     1>g:\the_way_coder_learn\vs_project\vs_2010\osg_guide_programme\application\osganimate.hpp(48): error C2143: 语法错误 : 缺少“,”(在“:”的前面)
+     1>g:\the_way_coder_learn\vs_project\vs_2010\osg_guide_programme\application\osganimate.hpp(48): error C2530: “n”: 必须初始化引用
+     1>g:\the_way_coder_learn\vs_project\vs_2010\osg_guide_programme\application\osganimate.hpp(48): error C3531: “n”: 类型包含“auto”的符号必须具有初始值设定项
+     1>g:\the_way_coder_learn\vs_project\vs_2010\osg_guide_programme\application\osganimate.hpp(48): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>g:\the_way_coder_learn\vs_project\vs_2010\osg_guide_programme\application\osganimate.hpp(49): error C2065: “m_pFeature”: 未声明的标识符
+     1>g:\the_way_coder_learn\vs_project\vs_2010\osg_guide_programme\application\osganimate.hpp(49): error C2227: “->getGeometry”的左边必须指向类/结构/联合/泛型类型
+                 类型是“'unknown-type'”
+     1>g:\the_way_coder_learn\vs_project\vs_2010\osg_guide_programme\application\osganimate.hpp(49): error C2227: “->push_back”的左边必须指向类/结构/联合/泛型类型
+     1>g:\the_way_coder_learn\vs_project\vs_2010\osg_guide_programme\application\osganimate.hpp(52): error C2065: “m_pFeatureNode”: 未声明的标识符
+     1>g:\the_way_coder_learn\vs_project\vs_2010\osg_guide_programme\application\osganimate.hpp(52): error C2227: “->init”的左边必须指向类/结构/联合/泛型类型
+                 类型是“'unknown-type'”
+     1>已完成生成项目“G:\the_way_coder_learn\vs_project\vs_2010\osg_guide_programme\application\application.vcxproj”(build 个目标)的操作 - 失败。
 
-生成成功。
+生成失败。
 
-已用时间 00:00:00.06
+已用时间 00:00:05.30
