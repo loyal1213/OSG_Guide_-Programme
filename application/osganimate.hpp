@@ -9,6 +9,7 @@
 #include <osgDB/Registry>
 #include <osgDB/ReadFile>
 #include <osgDB/WriteFile>
+#include <osgDB/ReaderWriter>
 
 #include <osgGA/TrackballManipulator>
 #include <osgGA/FlightManipulator>
@@ -21,9 +22,14 @@
 #include <osgEarthSymbology/LineSymbol>
 #include <osgEarthSymbology/AltitudeSymbol>
 #include <osgEarthSymbology/Geometry>
+#include <osgEarthFeatures/Feature>
+#include <osgEarthAnnotation/FeatureNode>
+#include <osgEarthAnnotation/FeatureEditing>
+
 
 osg::ref_ptr<osg::Group> root;
 osg::ref_ptr<osgEarth::MapNode> m_pMapNode;
+
 void createLine(std::vector<osg::Vec3d> m_vecPoint, osg::ref_ptr<osg::Group> modelGroup)
 {
 	osgEarth::Symbology::Style m_lineStyle;
