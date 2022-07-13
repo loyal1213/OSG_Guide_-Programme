@@ -30,7 +30,10 @@
 osg::ref_ptr<osg::Group> root;
 osg::ref_ptr<osgEarth::MapNode> m_pMapNode;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> d0a741895d18a6be5f9dc53fca0d0901dc0a024b
 
 void createLine(std::vector<osg::Vec3d> m_vecPoint, osg::ref_ptr<osg::Group> modelGroup)
 {
@@ -61,6 +64,9 @@ void createLine(std::vector<osg::Vec3d> m_vecPoint, osg::ref_ptr<osg::Group> mod
 
 }
 
+<<<<<<< HEAD
+>>>>>>> d0a741895d18a6be5f9dc53fca0d0901dc0a024b
+=======
 >>>>>>> d0a741895d18a6be5f9dc53fca0d0901dc0a024b
 
 osg::AnimationPath* createAnimationPath(const osg::Vec3& center,float radius,double looptime)
@@ -173,7 +179,11 @@ osg::Node* createMovingModel(const osg::Vec3& center, float radius)
 		float size = radius/bs.radius()*0.3f;
 		osg::MatrixTransform* positioned = new osg::MatrixTransform;
 		positioned->setDataVariance(osg::Object::STATIC);
+<<<<<<< HEAD
 		positioned->setMatrix(osg::Matrix::translate(-bs.center())*
+=======
+		positioned  ->setMatrix(osg::Matrix::translate(-bs.center())*
+>>>>>>> d0a741895d18a6be5f9dc53fca0d0901dc0a024b
 			osg::Matrix::scale(size,size,size)*
 			osg::Matrix::rotate(osg::inDegrees(-90.0f),0.0f,0.0f,1.0f));
 
@@ -246,7 +256,11 @@ osg::ref_ptr<osg::Group> createModel(bool overlay, osgSim::OverlayNode::OverlayT
 	std::vector<osg::Vec3d> m_vecPoint;
 	m_vecPoint.push_back(osg::Vec3d(116.7176, 20.6994, 100000.0));
 	m_vecPoint.push_back(osg::Vec3d(116.3, 39.9, 100000.0));
+<<<<<<< HEAD
 	// createLine(m_vecPoint, movingModel);
+=======
+	createLine(m_vecPoint, movingModel);
+>>>>>>> d0a741895d18a6be5f9dc53fca0d0901dc0a024b
 
 
 

@@ -23,7 +23,10 @@
 #include "OSG粒子飞行尾迹.hpp"
 #include "基于OE自定义自由飞行漫游器(初级版).hpp"
 #include "osganimate.hpp"
+<<<<<<< HEAD
 #include "osgearth 读取飞机模型.hpp"
+=======
+>>>>>>> d0a741895d18a6be5f9dc53fca0d0901dc0a024b
 
 int _tmain(int argc, char* argv[])
 {
@@ -47,11 +50,15 @@ int _tmain(int argc, char* argv[])
 	// TestTrail();
 
 	// TestEarthWalk(argc,argv);
+<<<<<<< HEAD
 	// TestOsgAnimate();
 	// TestPositionTransform();
 	// TestMatrixTransform();
 	TestOsgearthPlane();
 
+=======
+	TestOsgAnimate();
+>>>>>>> d0a741895d18a6be5f9dc53fca0d0901dc0a024b
 	return 0;
 }
 

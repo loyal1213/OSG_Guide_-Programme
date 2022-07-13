@@ -100,7 +100,10 @@
     <ClInclude Include="8_2_7 路径漫游示例.hpp" />
     <ClInclude Include="EarthWalkManipulato.h" />
     <ClInclude Include="osganimate.hpp" />
+<<<<<<< HEAD
     <ClInclude Include="osgearth 读取飞机模型.hpp" />
+=======
+>>>>>>> d0a741895d18a6be5f9dc53fca0d0901dc0a024b
     <ClInclude Include="OSG粒子飞行尾迹.hpp" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />

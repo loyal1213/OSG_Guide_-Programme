@@ -93,9 +93,12 @@
     <ClInclude Include="osganimate.hpp">
       <Filter>头文件</Filter>
     </ClInclude>
+<<<<<<< HEAD
     <ClInclude Include="osgearth 读取飞机模型.hpp">
       <Filter>头文件</Filter>
     </ClInclude>
+=======
+>>>>>>> d0a741895d18a6be5f9dc53fca0d0901dc0a024b
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
