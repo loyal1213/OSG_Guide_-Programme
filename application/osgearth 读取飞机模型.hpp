@@ -71,7 +71,7 @@ int TestOsgearthPlane()
 	model->getOrCreateStateSet()->setMode(GL_RESCALE_NORMAL, osg::StateAttribute::ON);
 
 	osg::Matrix Lmatrix;
-	geoSRS->getEllipsoid()->computeLocalToWorldTransformFromLatLongHeight(osg::DegreesToRadians(40.0), osg::DegreesToRadians(116.0), 500000.0, Lmatrix);  //维度，经度，高度，localToWorld
+	geoSRS->getEllipsoid()->computeLocalToWorldTransformFromLatLongHeight(osg::DegreesToRadians(40.0), osg::DegreesToRadians(116.0), 500000.0f, Lmatrix);  //维度，经度，高度，localToWorld
 
 	
 	//放大一些，方便看到
@@ -90,10 +90,8 @@ int TestOsgearthPlane()
 
 	// 视点定位北京地区,此句代码运行后可以直接定位到该坐标，注释后仍能正常显示模型，不过不会自动定位
 	// Viewpoint(const char* name, double lon, double lat, double z, double heading, double pitch, double range);
-	earthManipulator->setViewpoint(osgEarth::Viewpoint("模拟无人机", 116, 40, 0.0, 0.0, -90.0, 1.5e6));
+	earthManipulator->setViewpoint(osgEarth::Viewpoint("模拟无人机", 116, 40, 0.0, 0.0, -90, 1.5e6));
 
 
 	return viewer->run();
-
-
 }

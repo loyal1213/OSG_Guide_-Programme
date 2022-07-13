@@ -1,1 +1,31 @@
-﻿
+﻿生成启动时间为 2022/7/13 15:34:48。
+     1>项目“G:\the_way_coder_learn\vs_project\vs_2010\osg_guide_programme\automaticity\interface\interface.vcxproj”在节点 5 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Debug\interface.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         E:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Debug\interface.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         E:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\interface.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt interface.cpp
+         interface.cpp
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\interface.exe.embed.manifest.res" Debug\interface_manifest.rc 
+       Link:
+         E:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"G:\the_way_coder_learn\vs_project\vs_2010\osg_guide_programme\automaticity\Debug\interface.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\interface.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"G:\the_way_coder_learn\vs_project\vs_2010\osg_guide_programme\automaticity\Debug\interface.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"G:\the_way_coder_learn\vs_project\vs_2010\osg_guide_programme\automaticity\Debug\interface.lib" /MACHINE:X86 Debug\interface.exe.embed.manifest.res
+         Debug\interface.obj
+         Debug\stdafx.obj
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\interface.exe.embed.manifest" /manifest Debug\interface.exe.intermediate.manifest
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\interface.exe.embed.manifest.res" Debug\interface_manifest.rc 
+       LinkEmbedManifest:
+         E:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"G:\the_way_coder_learn\vs_project\vs_2010\osg_guide_programme\automaticity\Debug\interface.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\interface.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"G:\the_way_coder_learn\vs_project\vs_2010\osg_guide_programme\automaticity\Debug\interface.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"G:\the_way_coder_learn\vs_project\vs_2010\osg_guide_programme\automaticity\Debug\interface.lib" /MACHINE:X86 Debug\interface.exe.embed.manifest.res
+         Debug\interface.obj
+         Debug\stdafx.obj
+         interface.vcxproj -> G:\the_way_coder_learn\vs_project\vs_2010\osg_guide_programme\automaticity\Debug\interface.exe
+       FinalizeBuildStatus:
+         正在删除文件“Debug\interface.unsuccessfulbuild”。
+         正在对“Debug\interface.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“G:\the_way_coder_learn\vs_project\vs_2010\osg_guide_programme\automaticity\interface\interface.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:02.09
