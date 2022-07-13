@@ -51,14 +51,11 @@ int TestOsgearthPlane()
 	osg::ref_ptr<osg::Group> root = new osg::Group;
 
 	//加载地球节点
-	osg::ref_ptr<osg::Node> earthNode = osgDB::readNodeFile("demo.earth");
+	osg::ref_ptr<osg::Node> earthNode = osgDB::readNodeFile("gdal_interp.earth");
 	//将地球节点加入根节点
 	root->addChild(earthNode.get());
 
-	//设置现场数据
-	viewer->setSceneData(root.get());
-	//实现
-	viewer->realize();
+
 
 	//检测地图节点是否创建好
 	osg::ref_ptr<osgEarth::MapNode> mapNode = osgEarth::MapNode::findMapNode(earthNode.get());
@@ -78,14 +75,18 @@ int TestOsgearthPlane()
 
 	
 	//放大一些，方便看到
-	Lmatrix.preMult(osg::Matrix::scale(osg::Vec3(3000, 3000, 3000)));//x,y,z轴放大倍数
+	Lmatrix.preMult(osg::Matrix::scale(osg::Vec3(30000, 30000, 30000)));//x,y,z轴放大倍数
+
 
 	osg::MatrixTransform* mt = new osg::MatrixTransform;
 	mt->setMatrix(Lmatrix);
 	mt->addChild(model);
 	root->addChild(mt);
 
-	viewer->setSceneData(root);
+	//设置现场数据
+	viewer->setSceneData(root.get());
+	//实现
+	viewer->realize();
 
 	// 视点定位北京地区,此句代码运行后可以直接定位到该坐标，注释后仍能正常显示模型，不过不会自动定位
 	// Viewpoint(const char* name, double lon, double lat, double z, double heading, double pitch, double range);

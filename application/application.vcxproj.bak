@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{E0590072-3F34-44F4-90AC-048A301E4D26}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>application</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <ExecutablePath>C:\Program Files (x86)\OsgEarth\3rdparty\bin;C:\Program Files (x86)\OsgEarth\osg\bin;C:\Program Files (x86)\OsgEarth\osg\share\OpenSceneGraph\bin;C:\Program Files (x86)\OsgEarth\osgearth\bin;$(VCInstallDir)bin;$(WindowsSdkDir)bin\NETFX 4.0 Tools;$(WindowsSdkDir)bin;$(VSInstallDir)Common7\Tools\bin;$(VSInstallDir)Common7\tools;$(VSInstallDir)Common7\ide;$(ProgramFiles)\HTML Help Workshop;$(FrameworkSDKDir)\bin;$(MSBuildToolsPath32);$(VSInstallDir);$(SystemRoot)\SysWow64;$(FxCopDir);$(PATH);</ExecutablePath>
+    <IncludePath>C:\Program Files (x86)\OsgEarth\osg\include;C:\Program Files (x86)\OsgEarth\3rdparty\include;C:\Program Files (x86)\OsgEarth\3rdparty\local\include;C:\Program Files (x86)\OsgEarth\osgearth\include;$(VCInstallDir)include;$(VCInstallDir)atlmfc\include;$(WindowsSdkDir)include;$(FrameworkSDKDir)\include;</IncludePath>
+    <LibraryPath>C:\Program Files (x86)\OsgEarth\osg\lib;C:\Program Files (x86)\OsgEarth\3rdparty\lib;C:\Program Files (x86)\OsgEarth\3rdparty\local\lib;C:\Program Files (x86)\OsgEarth\osgearth\lib;$(VCInstallDir)lib;$(VCInstallDir)atlmfc\lib;$(WindowsSdkDir)lib;$(FrameworkSDKDir)\lib</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <ExecutablePath>C:\Program Files (x86)\OsgEarth\3rdparty\bin;C:\Program Files (x86)\OsgEarth\osg\bin;C:\Program Files (x86)\OsgEarth\osg\share\OpenSceneGraph\bin;C:\Program Files (x86)\OsgEarth\osgearth\bin;$(VCInstallDir)bin;$(WindowsSdkDir)bin\NETFX 4.0 Tools;$(WindowsSdkDir)bin;$(VSInstallDir)Common7\Tools\bin;$(VSInstallDir)Common7\tools;$(VSInstallDir)Common7\ide;$(ProgramFiles)\HTML Help Workshop;$(FrameworkSDKDir)\bin;$(MSBuildToolsPath32);$(VSInstallDir);$(SystemRoot)\SysWow64;$(FxCopDir);$(PATH);</ExecutablePath>
+    <IncludePath>C:\Program Files (x86)\OsgEarth\osg\include;C:\Program Files (x86)\OsgEarth\3rdparty\include;C:\Program Files (x86)\OsgEarth\3rdparty\local\include;C:\Program Files (x86)\OsgEarth\osgearth\include;$(VCInstallDir)include;$(VCInstallDir)atlmfc\include;$(WindowsSdkDir)include;$(FrameworkSDKDir)\include;</IncludePath>
+    <LibraryPath>C:\Program Files (x86)\OsgEarth\osg\lib;C:\Program Files (x86)\OsgEarth\3rdparty\lib;C:\Program Files (x86)\OsgEarth\3rdparty\local\lib;C:\Program Files (x86)\OsgEarth\osgearth\lib;$(VCInstallDir)lib;$(VCInstallDir)atlmfc\lib;$(WindowsSdkDir)lib;$(FrameworkSDKDir)\lib</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>osgGAd.lib;osgSimd.lib;osgViewerd.lib;OpenThreadsd.lib;osgManipulatord.lib;osgTerraind.lib;osgVolumed.lib;osgAnimationd.lib;osgParticled.lib;osgTextd.lib;osgWidgetd.lib;osgd.lib;osgDBd.lib;osgPresentationd.lib;osgUId.lib;osgFXd.lib;osgShadowd.lib;osgUtild.lib;osgEarthd.lib;osgEarthAnnotationd.lib;osgEarthSplatd.lib;osgEarthUtild.lib;osgEarthFeaturesd.lib;osgEarthSymbologyd.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>osgGAd.lib;osgSimd.lib;osgViewerd.lib;OpenThreadsd.lib;osgManipulatord.lib;osgTerraind.lib;osgVolumed.lib;osgAnimationd.lib;osgParticled.lib;osgTextd.lib;osgWidgetd.lib;osgd.lib;osgDBd.lib;osgPresentationd.lib;osgUId.lib;osgFXd.lib;osgShadowd.lib;osgUtild.lib;osgEarthd.lib;osgEarthAnnotationd.lib;osgEarthSplatd.lib;osgEarthUtild.lib;osgEarthFeaturesd.lib;osgEarthSymbologyd.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="3_2_2 布告板示例.hpp" />
+    <ClInclude Include="3_3_10 细节层次节点示例.hpp" />
+    <ClInclude Include="3_3_12 分页细节层次节点示例.hpp" />
+    <ClInclude Include="3_3_13 替代节点.hpp" />
+    <ClInclude Include="3_3_18 坐标系节点示例.hpp" />
+    <ClInclude Include="3_3_1位置变换节点.hpp" />
+    <ClInclude Include="3_3_4 矩阵变换节点示例.hpp" />
+    <ClInclude Include="3_3_5 自动对齐节点.hpp" />
+    <ClInclude Include="3_3_7 开关节点.hpp" />
+    <ClInclude Include="7_3_2 节点回调示例.hpp" />
+    <ClInclude Include="7_3_3 事件回调示例.hpp" />
+    <ClInclude Include="8_2_2 键盘事件消息处理.hpp" />
+    <ClInclude Include="8_2_4 场景漫游.hpp" />
+    <ClInclude Include="8_2_7 路径漫游示例.hpp" />
+    <ClInclude Include="EarthWalkManipulato.h" />
+    <ClInclude Include="osganimate.hpp" />
+    <ClInclude Include="osgearth 读取飞机模型.hpp" />
+    <ClInclude Include="OSG粒子飞行尾迹.hpp" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="TravelManipulator.h" />
+    <ClInclude Include="基于OE自定义自由飞行漫游器(初级版).hpp" />
+    <ClInclude Include="第3讲 osgviewer 应用基础 01.hpp" />
+    <ClInclude Include="第5讲 基本图元%28上%29.hpp" />
+    <ClInclude Include="第6讲 基本图元(下).hpp" />
+    <ClInclude Include="第7讲 矩阵操作(上).hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="application.cpp" />
+    <ClCompile Include="EarthWalkManipulato.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="TravelManipulator.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

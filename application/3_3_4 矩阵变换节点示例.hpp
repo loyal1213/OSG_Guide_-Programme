@@ -16,10 +16,9 @@
 
 #include <osgUtil/Optimizer>
 #include <osg/MatrixTransform>
-<<<<<<< HEAD
+
 #include <osg/Math>
-=======
->>>>>>> d0a741895d18a6be5f9dc53fca0d0901dc0a024b
+
 
 int TestMatrixTransform(){
 
@@ -62,23 +61,17 @@ int TestMatrixTransform(){
 
 	// 创建矩阵变换节点 mt2
 	osg::ref_ptr<osg::MatrixTransform> mt3 = new osg::MatrixTransform();
-<<<<<<< HEAD
-	
-=======
->>>>>>> d0a741895d18a6be5f9dc53fca0d0901dc0a024b
+
 	// 创建一个矩阵
 	osg::Matrix m3;
 	// 在X方向上平移0个单位
 	m3.makeTranslate(osg::Vec3(0.0f,0.0f,0.0f));
 	// 绕x轴旋转 45°
-<<<<<<< HEAD
+
 	m3.makeRotate(0.0f, osg::Vec3(1.0f,0.0f,0.0f), 0.0f, osg::Vec3(0.0f,1.0f,0.0f),  osg::DegreesToRadians(90.0f),  osg::Vec3(0.0f, 0.0f, 1.0f));
 	m3.scale(osg::Vec3(0.1,0.1,0.1));
 
-=======
-	// m2.makeRotate(45.0f,1.0f,0.0f,0.0f);
-	m3.scale(osg::Vec3(0.1,0.1,0.1));
->>>>>>> d0a741895d18a6be5f9dc53fca0d0901dc0a024b
+
 	// 设置矩阵
 	mt3->setMatrix(m3);
 	// 添加子节点
