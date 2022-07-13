@@ -24,35 +24,6 @@
 
 osg::ref_ptr<osg::Group> root;
 osg::ref_ptr<osgEarth::MapNode> m_pMapNode;
-void createLine(std::vector<osg::Vec3d> m_vecPoint, osg::ref_ptr<osg::Group> modelGroup)
-{
-	osgEarth::Symbology::Style m_lineStyle;
-	osgEarth::Features::Feature* m_pFeature;
-	osgEarth::Annotation::FeatureNode* m_pFeatureNode;
-
-	// init style
-	m_lineStyle.getOrCreate<osgEarth::Symbology::LineSymbol>()->stroke()->color() = osgEarth::Symbology::Color::Yellow;
-	m_lineStyle.getOrCreate<osgEarth::Symbology::LineSymbol>()->stroke()->width() = 2.0f;
-	m_lineStyle.getOrCreate<osgEarth::Symbology::LineSymbol>()->tessellation() = 20.0;
-	//m_lineStyle.getOrCreate<osgEarth::Symbology::AltitudeSymbol>()->clamping() = osgEarth::Symbology::AltitudeSymbol:: CLAMP_TO_TERRAIN;//贴地
-	m_lineStyle.getOrCreate<osgEarth::Symbology::AltitudeSymbol>()->technique() = osgEarth::Symbology::AltitudeSymbol::TECHNIQUE_DRAPE;
-	m_lineStyle.getOrCreate<osgEarth::Symbology::AltitudeSymbol>()->verticalOffset() = 0.1;
-
-
-	m_pFeature = new osgEarth::Features::Feature(new osgEarth::Annotation::LineString, m_pMapNode->getMapSRS());
-	m_pFeatureNode = new osgEarth::Annotation::FeatureNode(m_pMapNode, m_pFeature, m_lineStyle);
-	modelGroup->addChild(m_pFeatureNode);//如果是多个模型，这里就需要改了
-
-	m_pFeature->getGeometry()->clear();
-	m_pFeatureNode->setStyle(m_lineStyle);
-	for (auto& n : m_vecPoint){
-		m_pFeature->getGeometry()->push_back(n);
-	}
-
-	m_pFeatureNode->init();
-
-}
-
 
 osg::AnimationPath* createAnimationPath(const osg::Vec3& center,float radius,double looptime)
 {
@@ -164,7 +135,7 @@ osg::Node* createMovingModel(const osg::Vec3& center, float radius)
 		float size = radius/bs.radius()*0.3f;
 		osg::MatrixTransform* positioned = new osg::MatrixTransform;
 		positioned->setDataVariance(osg::Object::STATIC);
-		positioned  ->setMatrix(osg::Matrix::translate(-bs.center())*
+		positioned->setMatrix(osg::Matrix::translate(-bs.center())*
 			osg::Matrix::scale(size,size,size)*
 			osg::Matrix::rotate(osg::inDegrees(-90.0f),0.0f,0.0f,1.0f));
 
@@ -237,7 +208,7 @@ osg::ref_ptr<osg::Group> createModel(bool overlay, osgSim::OverlayNode::OverlayT
 	std::vector<osg::Vec3d> m_vecPoint;
 	m_vecPoint.push_back(osg::Vec3d(116.7176, 20.6994, 100000.0));
 	m_vecPoint.push_back(osg::Vec3d(116.3, 39.9, 100000.0));
-	createLine(m_vecPoint, movingModel);
+	// createLine(m_vecPoint, movingModel);
 
 
 

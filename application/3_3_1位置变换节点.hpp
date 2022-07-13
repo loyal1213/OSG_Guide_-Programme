@@ -26,6 +26,8 @@ int TestPositionTransform(){
 	// 读取 cow 的模型，以进行对比
 	osg::ref_ptr<osg::Node> node = osgDB::readNodeFile("cow.osg");
 
+	osg::Vec3d  position;
+
 	// 创建位置变换节点 part1
 	osg::ref_ptr<osg::PositionAttitudeTransform> pat1 = new osg::PositionAttitudeTransform();
 	// 设置位置为 osg::Vec3(-10.0f,0.0f,0.0f)
@@ -34,6 +36,9 @@ int TestPositionTransform(){
 	pat1->setScale(osg::Vec3(0.5f,0.5f,0.5f));
 	// 添加子节点
 	pat1->addChild(node.get());
+	
+	position = pat1->getPivotPoint();
+
 
 	// 创建位置变换节点 part2
 	osg::ref_ptr<osg::PositionAttitudeTransform> pat2 = new osg::PositionAttitudeTransform();
@@ -44,6 +49,8 @@ int TestPositionTransform(){
 	// 添加子节点
 	pat2->addChild(node.get());
 
+	position = pat2->getPivotPoint();
+
 	// 创建位置变换节点 part3
 	osg::ref_ptr<osg::PositionAttitudeTransform> pat3 = new osg::PositionAttitudeTransform();
 	// 设置位置为 osg::Vec3(-10.0f,0.0f,0.0f)
@@ -53,6 +60,7 @@ int TestPositionTransform(){
 	// 添加子节点
 	pat3->addChild(node.get());
 
+	position = pat3->getPivotPoint();
 
 	// 创建位置变换节点 part4
 	osg::ref_ptr<osg::PositionAttitudeTransform> pat4 = new osg::PositionAttitudeTransform();
@@ -63,6 +71,7 @@ int TestPositionTransform(){
 	// 添加子节点
 	pat4->addChild(node.get());
 
+	position = pat4->getPivotPoint();
 
 	// 创建位置变换节点 part5
 	osg::ref_ptr<osg::PositionAttitudeTransform> pat5 = new osg::PositionAttitudeTransform();
@@ -73,6 +82,8 @@ int TestPositionTransform(){
 	// 添加子节点
 	pat5->addChild(node.get());
 
+	position = pat5->getPivotPoint();
+
 	// 创建位置变换节点 part6
 	osg::ref_ptr<osg::PositionAttitudeTransform> pat6 = new osg::PositionAttitudeTransform();
 	// 设置位置为 osg::Vec3(-10.0f,0.0f,0.0f)
@@ -82,6 +93,7 @@ int TestPositionTransform(){
 	// 添加子节点
 	pat6->addChild(node.get());
 
+	position = pat6->getPivotPoint();
 
 	// 创建位置变换节点 part7
 	osg::ref_ptr<osg::PositionAttitudeTransform> pat7 = new osg::PositionAttitudeTransform();
@@ -92,6 +104,7 @@ int TestPositionTransform(){
 	// 添加子节点
 	pat7->addChild(node.get());
 
+	position = pat7->getPivotPoint();
 
 	// 添加到场景
 	root->addChild(pat1.get());

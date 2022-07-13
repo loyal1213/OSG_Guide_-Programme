@@ -1,5 +1,5 @@
-﻿生成启动时间为 2022/7/12 18:37:58。
-     1>项目“G:\the_way_coder_learn\vs_project\vs_2010\osg_guide_programme\automaticity\camera\camera.vcxproj”在节点 2 上(build 个目标)。
+﻿生成启动时间为 2022/7/13 11:56:02。
+     1>项目“G:\the_way_coder_learn\vs_project\vs_2010\osg_guide_programme\automaticity\camera\camera.vcxproj”在节点 6 上(build 个目标)。
      1>InitializeBuildStatus:
          正在创建“Debug\camera.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
        ClCompile:
@@ -18,4 +18,4 @@
 
 生成成功。
 
-已用时间 00:00:00.05
+已用时间 00:00:00.07
