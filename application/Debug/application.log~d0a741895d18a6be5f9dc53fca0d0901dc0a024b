@@ -1,0 +1,16 @@
+﻿  application.cpp
+e:\the_way_code\vs_2010\osg_guide_programme\application\第6讲 基本图元(下).hpp(35): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“osg::Geometry::AttributeBinding”
+e:\the_way_code\vs_2010\osg_guide_programme\application\第6讲 基本图元(下).hpp(40): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“osg::Geometry::AttributeBinding”
+e:\the_way_code\vs_2010\osg_guide_programme\application\osganimate.hpp(49): error C2664: “osgEarth::Annotation::FeatureNode::FeatureNode(osgEarth::Features::Feature *,const osgEarth::Symbology::Style &,const osgEarth::Features::GeometryCompilerOptions &,osgEarth::Symbology::StyleSheet *)”: 不能将参数 1 从“osg::ref_ptr<T>”转换为“osgEarth::Features::Feature *”
+          with
+          [
+              T=osgEarth::MapNode
+          ]
+          没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+e:\the_way_code\vs_2010\osg_guide_programme\application\osganimate.hpp(54): error C2143: 语法错误 : 缺少“,”(在“:”的前面)
+e:\the_way_code\vs_2010\osg_guide_programme\application\osganimate.hpp(54): error C2530: “n”: 必须初始化引用
+e:\the_way_code\vs_2010\osg_guide_programme\application\osganimate.hpp(54): error C3531: “n”: 类型包含“auto”的符号必须具有初始值设定项
+e:\the_way_code\vs_2010\osg_guide_programme\application\osganimate.hpp(54): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+e:\the_way_code\vs_2010\osg_guide_programme\application\osganimate.hpp(55): error C2664: “void osgEarth::Symbology::Geometry::push_back(const osg::Vec3d &)”: 不能将参数 1 从“int”转换为“const osg::Vec3d &”
+          原因如下: 无法从“int”转换为“const osg::Vec3d”
+          无构造函数可以接受源类型，或构造函数重载决策不明确

@@ -9,6 +9,7 @@
 #include <osgDB/Registry>
 #include <osgDB/ReadFile>
 #include <osgDB/WriteFile>
+#include <osgDB/ReaderWriter>
 
 #include <osgGA/TrackballManipulator>
 #include <osgGA/FlightManipulator>
@@ -21,9 +22,46 @@
 #include <osgEarthSymbology/LineSymbol>
 #include <osgEarthSymbology/AltitudeSymbol>
 #include <osgEarthSymbology/Geometry>
+#include <osgEarthFeatures/Feature>
+#include <osgEarthAnnotation/FeatureNode>
+#include <osgEarthAnnotation/FeatureEditing>
+
 
 osg::ref_ptr<osg::Group> root;
 osg::ref_ptr<osgEarth::MapNode> m_pMapNode;
+<<<<<<< HEAD
+=======
+
+void createLine(std::vector<osg::Vec3d> m_vecPoint, osg::ref_ptr<osg::Group> modelGroup)
+{
+	osgEarth::Symbology::Style m_lineStyle;
+	osgEarth::Features::Feature* m_pFeature;
+	osgEarth::Annotation::FeatureNode* m_pFeatureNode;
+
+	// init style
+	m_lineStyle.getOrCreate<osgEarth::Symbology::LineSymbol>()->stroke()->color() = osgEarth::Symbology::Color::Yellow;
+	m_lineStyle.getOrCreate<osgEarth::Symbology::LineSymbol>()->stroke()->width() = 2.0f;
+	m_lineStyle.getOrCreate<osgEarth::Symbology::LineSymbol>()->tessellation() = 20.0;
+	//m_lineStyle.getOrCreate<osgEarth::Symbology::AltitudeSymbol>()->clamping() = osgEarth::Symbology::AltitudeSymbol:: CLAMP_TO_TERRAIN;//贴地
+	m_lineStyle.getOrCreate<osgEarth::Symbology::AltitudeSymbol>()->technique() = osgEarth::Symbology::AltitudeSymbol::TECHNIQUE_DRAPE;
+	m_lineStyle.getOrCreate<osgEarth::Symbology::AltitudeSymbol>()->verticalOffset() = 0.1;
+
+
+	m_pFeature = new osgEarth::Features::Feature(new osgEarth::Annotation::LineString, m_pMapNode->getMapSRS());
+	m_pFeatureNode = new osgEarth::Annotation::FeatureNode(m_pMapNode, m_pFeature, m_lineStyle);
+	modelGroup->addChild(m_pFeatureNode);//如果是多个模型，这里就需要改了
+
+	m_pFeature->getGeometry()->clear();
+	m_pFeatureNode->setStyle(m_lineStyle);
+	for (auto& n : m_vecPoint){
+		m_pFeature->getGeometry()->push_back(n);
+	}
+
+	m_pFeatureNode->init();
+
+}
+
+>>>>>>> d0a741895d18a6be5f9dc53fca0d0901dc0a024b
 
 osg::AnimationPath* createAnimationPath(const osg::Vec3& center,float radius,double looptime)
 {
