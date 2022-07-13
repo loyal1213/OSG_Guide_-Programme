@@ -13,9 +13,9 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "interface", "interface\inte
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "shader", "shader\shader.vcxproj", "{AC2AC470-0C9B-44CB-8E08-6D0665EA15E9}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "animation", "animation\animation.vcxproj", "{7D69CCFB-53E9-4F0D-A4F0-BA6A7DAE0C42}"
-EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ocean_terrain", "ocean_terrain\ocean_terrain.vcxproj", "{1EAE481C-EC66-4E93-8848-81E1508E00DD}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "animation", "..\animation\animation.vcxproj", "{7C408817-C940-4E44-8FC2-B43857923503}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -47,14 +47,14 @@ Global
 		{AC2AC470-0C9B-44CB-8E08-6D0665EA15E9}.Debug|Win32.Build.0 = Debug|Win32
 		{AC2AC470-0C9B-44CB-8E08-6D0665EA15E9}.Release|Win32.ActiveCfg = Release|Win32
 		{AC2AC470-0C9B-44CB-8E08-6D0665EA15E9}.Release|Win32.Build.0 = Release|Win32
-		{7D69CCFB-53E9-4F0D-A4F0-BA6A7DAE0C42}.Debug|Win32.ActiveCfg = Debug|Win32
-		{7D69CCFB-53E9-4F0D-A4F0-BA6A7DAE0C42}.Debug|Win32.Build.0 = Debug|Win32
-		{7D69CCFB-53E9-4F0D-A4F0-BA6A7DAE0C42}.Release|Win32.ActiveCfg = Release|Win32
-		{7D69CCFB-53E9-4F0D-A4F0-BA6A7DAE0C42}.Release|Win32.Build.0 = Release|Win32
 		{1EAE481C-EC66-4E93-8848-81E1508E00DD}.Debug|Win32.ActiveCfg = Debug|Win32
 		{1EAE481C-EC66-4E93-8848-81E1508E00DD}.Debug|Win32.Build.0 = Debug|Win32
 		{1EAE481C-EC66-4E93-8848-81E1508E00DD}.Release|Win32.ActiveCfg = Release|Win32
 		{1EAE481C-EC66-4E93-8848-81E1508E00DD}.Release|Win32.Build.0 = Release|Win32
+		{7C408817-C940-4E44-8FC2-B43857923503}.Debug|Win32.ActiveCfg = Debug|Win32
+		{7C408817-C940-4E44-8FC2-B43857923503}.Debug|Win32.Build.0 = Debug|Win32
+		{7C408817-C940-4E44-8FC2-B43857923503}.Release|Win32.ActiveCfg = Release|Win32
+		{7C408817-C940-4E44-8FC2-B43857923503}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
