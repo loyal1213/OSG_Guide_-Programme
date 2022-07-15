@@ -93,6 +93,15 @@
     <ClInclude Include="第6讲 基本图元(下).hpp">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="9_1_3 显示汉字示例.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="9_1_4 各种文字效果(边框%3b阴影%3b颜色%3b倾斜)示例.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="9_1_5 HUD 显示汉字示例.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <None Include="ReadMe.txt" />

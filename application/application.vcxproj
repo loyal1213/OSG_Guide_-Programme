@@ -98,6 +98,9 @@
     <ClInclude Include="8_2_2 键盘事件消息处理.hpp" />
     <ClInclude Include="8_2_4 场景漫游.hpp" />
     <ClInclude Include="8_2_7 路径漫游示例.hpp" />
+    <ClInclude Include="9_1_3 显示汉字示例.hpp" />
+    <ClInclude Include="9_1_4 各种文字效果(边框%3b阴影%3b颜色%3b倾斜)示例.hpp" />
+    <ClInclude Include="9_1_5 HUD 显示汉字示例.hpp" />
     <ClInclude Include="EarthWalkManipulato.h" />
     <ClInclude Include="osganimate.hpp" />
     <ClInclude Include="osgearth 读取飞机模型.hpp" />
