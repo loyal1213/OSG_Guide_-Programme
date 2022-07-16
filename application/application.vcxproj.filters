@@ -102,6 +102,9 @@
     <ClInclude Include="9_1_5 HUD 显示汉字示例.hpp">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="9_1_7 渐变文字示例.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <None Include="ReadMe.txt" />
