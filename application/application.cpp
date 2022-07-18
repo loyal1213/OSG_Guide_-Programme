@@ -31,6 +31,8 @@
 #include "9_1_7 渐变文字示例.hpp"
 #include "9_2_2 3D汉字显示示例.hpp"
 #include "3_3_16 遮挡裁剪节点示例.hpp"
+#include "3_4_1 自定义场景拷贝示例.hpp"
+#include "3_4_2 自定义场景拷贝示例2.hpp"
 int _tmain(int argc, char* argv[])
 {
 	// test_osgviewer();
@@ -63,6 +65,10 @@ int _tmain(int argc, char* argv[])
 	// TestFadeText();
 	// Test3DText();
 	// TestCoordinateSystemNode();
+
+	// TestCopyOp();
+	// TestCopyOp2();
+
 	return 0;
 }
 

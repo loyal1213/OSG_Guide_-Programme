@@ -68,7 +68,7 @@ public:
 		writeIndent();
 		std::cout<<"copying node "<<node<<std::endl;
 		if (node){
-			std::cout<<"node.className() "<<node.className();
+			std::cout<<"node.className() "<<node->className();
 		}
 		std::cout<<std::endl;
 		moveIn();
@@ -170,11 +170,20 @@ void TestCopyOp(){
 
 	// 浅拷贝一个场景
 	osg::ref_ptr<osg::Node> shallowCopy = dynamic_cast<osg::Node*>(node->clone(osg::CopyOp::SHALLOW_COPY));
+	std::cout<<std::endl<<"完成浅拷贝一个场景"<<std::endl<<std::endl;
+
+	// 深拷贝一个场景
+	osg::ref_ptr<osg::Node> deepCopy = dynamic_cast<osg::Node*>(node->clone(osg::CopyOp::DEEP_COPY_ALL));
+	std::cout<<std::endl<<"完成深拷贝一个场景"<<std::endl<<std::endl;
+	
+	// 自定义输出信息浅拷贝场景
+	osg::ref_ptr<osg::Node> myShallowCopy = dynamic_cast<osg::Node*>(node->clone(MyCopyOp::Options(osg::CopyOp::SHALLOW_COPY)));
+	std::cout<<std::endl<<"完成一个自定义输出信息浅拷贝场景"<<std::endl<<std::endl;
 
 
-
-
-
+	// 自定义输出信息深拷贝场景
+	osg::ref_ptr<osg::Node> myDeepCopy = dynamic_cast<osg::Node*>(node->clone(MyCopyOp::Options(osg::CopyOp::DEEP_COPY_ALL)));
+	std::cout<<std::endl<<"完成一个自定义输出信息深拷贝场景"<<std::endl<<std::endl;
 
 
 	root->addChild(node.get());
