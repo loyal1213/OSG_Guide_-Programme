@@ -29,6 +29,8 @@
 #include "9_1_4 各种文字效果(边框;阴影;颜色;倾斜)示例.hpp"
 #include "9_1_5 HUD 显示汉字示例.hpp"
 #include "9_1_7 渐变文字示例.hpp"
+#include "9_2_2 3D汉字显示示例.hpp"
+#include "3_3_16 遮挡裁剪节点示例.hpp"
 int _tmain(int argc, char* argv[])
 {
 	// test_osgviewer();
@@ -58,7 +60,9 @@ int _tmain(int argc, char* argv[])
 	// TestOsgText();
 	// TestAllKindText();
 	// TestHUDText();
-	TestFadeText();
+	// TestFadeText();
+	// Test3DText();
+	// TestCoordinateSystemNode();
 	return 0;
 }
 

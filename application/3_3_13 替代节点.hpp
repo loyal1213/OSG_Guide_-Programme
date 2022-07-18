@@ -33,7 +33,7 @@ int TestImpostor(){
 	// 设置 50.0f 以后开始使用贴图
 	impostor->setImpostorThreshold(50.0f);
 	// 设置模型的显示范围在 0 ~ 10000 内
-	impostor->addChild(node.get(),0,10000.0f);
+	impostor->addChild(node.get(), 0, 50.0f);
 
 	// 添加到场景
 	root->addChild(impostor.get());

@@ -105,6 +105,15 @@
     <ClInclude Include="9_1_7 渐变文字示例.hpp">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="9_2_2 3D汉字显示示例.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="3_3_16 遮挡裁剪节点示例.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="3_4_1 自定义场景拷贝示例.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <None Include="ReadMe.txt" />

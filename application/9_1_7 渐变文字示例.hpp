@@ -19,17 +19,17 @@
 #include <iostream>
 
 // 创建文字
-osg::ref_ptr<osgText::Text> CreateText1(const std::string &str,osg::Vec3 pos){
+osg::ref_ptr<osgText::Text> CreateText1(const std::string &str, osg::Vec3 pos){
 
    osg::ref_ptr<osgText::FadeText> text = new osgText::FadeText();
 
    // 设置筛选回调
    osg::Vec3 normal(0.0f,0.0f,1.0f);
    // 设置为聚集筛选，一种类似于背面筛选的场景筛选方法，但是它可以将多个对象组合起来进行统一的背面筛选
-   text->setCullCallback(new osg::ClusterCullingCallback(pos,normal,0.0f));
+   // text->setCullCallback(new osg::ClusterCullingCallback(pos,normal,0.0f));
 
    text->setText(str);
-   text->setFont("fonts/arial.ttf");
+   text->setFont("fonts/simhei.ttf");
    text->setPosition(pos);
    text->setCharacterSize(300.0f);
    text->setCharacterSizeMode(osgText::Text::OBJECT_COORDS_WITH_MAXIMUM_SCREEN_SIZE_CAPPED_BY_FONT_HEIGHT);
@@ -68,10 +68,17 @@ osg::ref_ptr<osg::Node> CreateFadeText(){
 	int delta = 10;
 
 	// 添加 Drawable
-	int t = 0;
-	for (int i = 100;i <num_x;i+=delta,t++){
-		geode->addDrawable(CreateText1(textList[t%textList.size()],osg::Vec3(0,i,100)));
-	}
+	/*int t = 0, index = 0;
+	for (int i = 100; i < num_x; i+=delta){
+		index = t++ % textList.size();
+		std::cout<< "index: "<< index <<std::endl;
+		geode->addDrawable(CreateText1(textList[index],osg::Vec3(0,i,100)));
+		
+	}*/
+
+	auto text = CreateText1("123456",osg::Vec3(50,50,100));
+
+	geode->addDrawable(text);
 
 	return group;
 }
