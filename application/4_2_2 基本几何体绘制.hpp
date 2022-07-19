@@ -70,7 +70,7 @@ osg::ref_ptr<osg::Node> CreateQuad1(){
 	geometry->addPrimitiveSet(new osg::DrawArrays(osg::PrimitiveSet::QUADS,0,4));
 
 	// 添加到叶子节点
-	geode->addChild(geometry);
+	geode->addDrawable(geometry);
 
 	return geode;
 }

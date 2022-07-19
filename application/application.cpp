@@ -31,16 +31,20 @@
 #include "9_1_7 渐变文字示例.hpp"
 #include "9_2_2 3D汉字显示示例.hpp"
 #include "3_3_16 遮挡裁剪节点示例.hpp"
-<<<<<<< HEAD
-#include "3_4_1 自定义场景拷贝示例.hpp"
-#include "3_4_2 自定义场景拷贝示例2.hpp"
-=======
 
 #include "4_2_2 基本几何体绘制.hpp"
 #include "4_2_3 索引绑定几何体绘制示例.hpp"
 #include "4_3_3 网格化类.hpp"
+#include "4_5_8 生成顶点法向量示例.hpp"
+#include "4_4 多边形分格化.hpp"
+#include "4_5_1 简化几何体.hpp"
+#include "4_5_4 三角形网绘制示例.hpp"
+#include "4_5_5 三角带绘制.hpp"
+#include "5_3_4 简单光源示例.hpp"
+#include "5_1_4 渲染状态示例.hpp"
+#include "5_2_2 二维纹理映射示例.hpp"
+#include "5_2_4 多重纹理映射示例.hpp"
 
->>>>>>> 6fedc2152417dac71e7dd24e90cd71838b8a647c
 int _tmain(int argc, char* argv[])
 {
 	// test_osgviewer();
@@ -74,8 +78,17 @@ int _tmain(int argc, char* argv[])
 	// Test3DText();
 	// TestCoordinateSystemNode();
 
-	TestShape();
+	// TestTessellator();
+	// TestSimplifier();
+	// TestDelaunayTriangulator();
+	// TestQuad1();
 
+	// TestTriStripVisitor();
+	// TestRotateCallBack();
+	// TestLight();
+	// TestClipNode();
+	// TestTextureMultiple();
+	TestTexture1DOr2DOrMap();
 	return 0;
 }
 

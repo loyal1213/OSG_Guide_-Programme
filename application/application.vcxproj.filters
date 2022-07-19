@@ -126,6 +126,33 @@
     <ClInclude Include="4_3_3 网格化类.hpp">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="4_5_8 生成顶点法向量示例.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="4_4 多边形分格化.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="4_5_1 简化几何体.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="4_5_4 三角形网绘制示例.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="4_5_5 三角带绘制.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="5_1_4 渲染状态示例.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="5_3_4 简单光源示例.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="5_2_2 二维纹理映射示例.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="5_2_4 多重纹理映射示例.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <None Include="ReadMe.txt" />
