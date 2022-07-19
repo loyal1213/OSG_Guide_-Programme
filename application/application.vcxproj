@@ -96,7 +96,9 @@
     <ClInclude Include="3_3_7 开关节点.hpp" />
     <ClInclude Include="3_4_1 自定义场景拷贝示例.hpp" />
     <ClInclude Include="3_4_2 自定义场景拷贝示例2.hpp" />
-    <ClInclude Include="4_2_2 基本几何体绘制示例.hpp" />
+    <ClInclude Include="4_2_2 基本几何体绘制.hpp" />
+    <ClInclude Include="4_2_3 索引绑定几何体绘制示例.hpp" />
+    <ClInclude Include="4_3_3 网格化类.hpp" />
     <ClInclude Include="7_3_2 节点回调示例.hpp" />
     <ClInclude Include="7_3_3 事件回调示例.hpp" />
     <ClInclude Include="8_2_2 键盘事件消息处理.hpp" />

@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="application.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="EarthWalkManipulato.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TravelManipulator.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="3_2_2 布告板示例.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="8_2_7 路径漫游示例.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="3_3_10 细节层次节点示例.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="3_3_12 分页细节层次节点示例.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="3_3_13 替代节点.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="3_3_18 坐标系节点示例.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="3_3_1位置变换节点.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="3_3_4 矩阵变换节点示例.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="3_3_5 自动对齐节点.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="3_3_7 开关节点.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="7_3_2 节点回调示例.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="7_3_3 事件回调示例.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="8_2_2 键盘事件消息处理.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="8_2_4 场景漫游.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="EarthWalkManipulato.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="osgearth 读取飞机模型.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="OSG粒子飞行尾迹.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TravelManipulator.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="osganimate.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="基于OE自定义自由飞行漫游器(初级版).hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="第7讲 矩阵操作(上).hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="第3讲 osgviewer 应用基础 01.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="第5讲 基本图元%28上%29.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="第6讲 基本图元(下).hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="9_1_3 显示汉字示例.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="9_1_4 各种文字效果(边框%3b阴影%3b颜色%3b倾斜)示例.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="9_1_5 HUD 显示汉字示例.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="9_1_7 渐变文字示例.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="9_2_2 3D汉字显示示例.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="3_3_16 遮挡裁剪节点示例.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="3_4_1 自定义场景拷贝示例.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+<<<<<<< HEAD
+    <ClInclude Include="3_4_2 自定义场景拷贝示例2.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="4_2_2 基本几何体绘制示例.hpp">
+=======
+    <ClInclude Include="4_2_3 索引绑定几何体绘制示例.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="4_2_2 基本几何体绘制.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="4_3_3 网格化类.hpp">
+>>>>>>> 6fedc2152417dac71e7dd24e90cd71838b8a647c
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{7262a950-19f8-48ef-b309-43591aa3605b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{fe46d9dd-2763-4a11-812d-bad7899aacd8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{f6552ec5-fb38-4501-a6cf-69d2bdfc23c8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

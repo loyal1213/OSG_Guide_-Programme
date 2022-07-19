@@ -31,8 +31,16 @@
 #include "9_1_7 渐变文字示例.hpp"
 #include "9_2_2 3D汉字显示示例.hpp"
 #include "3_3_16 遮挡裁剪节点示例.hpp"
+<<<<<<< HEAD
 #include "3_4_1 自定义场景拷贝示例.hpp"
 #include "3_4_2 自定义场景拷贝示例2.hpp"
+=======
+
+#include "4_2_2 基本几何体绘制.hpp"
+#include "4_2_3 索引绑定几何体绘制示例.hpp"
+#include "4_3_3 网格化类.hpp"
+
+>>>>>>> 6fedc2152417dac71e7dd24e90cd71838b8a647c
 int _tmain(int argc, char* argv[])
 {
 	// test_osgviewer();
@@ -66,8 +74,7 @@ int _tmain(int argc, char* argv[])
 	// Test3DText();
 	// TestCoordinateSystemNode();
 
-	// TestCopyOp();
-	// TestCopyOp2();
+	TestShape();
 
 	return 0;
 }
