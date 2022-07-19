@@ -114,6 +114,15 @@
     <ClInclude Include="3_4_1 自定义场景拷贝示例.hpp">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="4_2_3 索引绑定几何体绘制示例.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="4_2_2 基本几何体绘制.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="4_3_3 网格化类.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <None Include="ReadMe.txt" />

@@ -31,6 +31,11 @@
 #include "9_1_7 渐变文字示例.hpp"
 #include "9_2_2 3D汉字显示示例.hpp"
 #include "3_3_16 遮挡裁剪节点示例.hpp"
+
+#include "4_2_2 基本几何体绘制.hpp"
+#include "4_2_3 索引绑定几何体绘制示例.hpp"
+#include "4_3_3 网格化类.hpp"
+
 int _tmain(int argc, char* argv[])
 {
 	// test_osgviewer();
@@ -63,6 +68,8 @@ int _tmain(int argc, char* argv[])
 	// TestFadeText();
 	// Test3DText();
 	// TestCoordinateSystemNode();
+
+	TestShape();
 	return 0;
 }
 
