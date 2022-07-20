@@ -44,10 +44,14 @@
 */
 
 //向场景中添加光源
-osg::ref_ptr<osg::Group> createLight(osg::ref_ptr<osg::Node> node)
+osg::ref_ptr<osg::Group> CreateLight(osg::ref_ptr<osg::Node> node)
 {
+	osg::ref_ptr<osg::Group> lightRoot = new osg::Group();
+	lightRoot->addChild(node);
 
+	// 开启光照
 	osg::ref_ptr<osg::StateSet> stateset = new osg::StateSet();
+	stateset = lightRoot->getOrCreateStateSet();
 
 	//当光照计算结果过于明亮或者暗淡时，允许法线的重缩放
 	//stateset->setMode(GL_RESCALE_NORMAL, osg::StateAttribute::ON);
@@ -69,6 +73,7 @@ osg::ref_ptr<osg::Group> createLight(osg::ref_ptr<osg::Node> node)
 	//创建一个Light对象，定义光源参数
 	osg::ref_ptr<osg::Light> light = new osg::Light();
 	light->setLightNum(0);
+
 	//设置方向
 	light->setDirection(osg::Vec3(0.0f, 0.0f, -1.0f));
 	//设置位置
@@ -85,13 +90,11 @@ osg::ref_ptr<osg::Group> createLight(osg::ref_ptr<osg::Node> node)
 	//设置二次方衰减指数
 	light->setQuadraticAttenuation(0.0f);
 
-	//创建光源
+	// 创建光源
 	osg::ref_ptr<osg::LightSource> lightSource = new osg::LightSource();
 	lightSource->setLight(light.get());
 
-	osg::ref_ptr<osg::Group> lightRoot = new osg::Group();
-	stateset = lightRoot->getOrCreateStateSet();
-	lightRoot->addChild(node);
+
 	lightRoot->addChild(lightSource.get());
 
 	return lightRoot.get();
@@ -101,7 +104,7 @@ int TestLight()
 {
 	osg::ref_ptr<osg::Node> node = osgDB::readNodeFile("cow.osg");
 	osg::ref_ptr<osg::Group> root = new osg::Group();
-	root->addChild(createLight(node.get()));
+	root->addChild(CreateLight(node.get()));
 
 	//优化场景数据
 	osgUtil::Optimizer optimizer;

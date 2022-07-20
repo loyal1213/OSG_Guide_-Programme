@@ -153,6 +153,27 @@
     <ClInclude Include="5_2_4 多重纹理映射示例.hpp">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="5_2_3 多重纹理映射.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="5_2_6 Mipmap 纹理映射示例.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="5_2_17 一维纹理.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="5_2_20 三维纹理映射示例.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="5_3_5 聚光灯示例.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="5_4_2 材质类示例.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="5_2_13 立方体图纹理.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <None Include="ReadMe.txt" />

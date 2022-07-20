@@ -44,7 +44,12 @@
 #include "5_1_4 渲染状态示例.hpp"
 #include "5_2_2 二维纹理映射示例.hpp"
 #include "5_2_4 多重纹理映射示例.hpp"
-
+#include "5_2_3 多重纹理映射.hpp"
+#include "5_2_17 一维纹理.hpp"
+#include "5_2_20 三维纹理映射示例.hpp"
+#include "5_3_5 聚光灯示例.hpp"
+#include "5_4_2 材质类示例.hpp"
+#include "5_2_13 立方体图纹理.hpp"
 int _tmain(int argc, char* argv[])
 {
 	// test_osgviewer();
@@ -88,7 +93,13 @@ int _tmain(int argc, char* argv[])
 	// TestLight();
 	// TestClipNode();
 	// TestTextureMultiple();
-	TestTexture1DOr2DOrMap();
+	// TestTexture1DOr2DOrMap();
+	// TestTextureMultiple2();
+	// TestTexture1D();
+	// Test3DTextureMap();
+	// TestSpotLight();
+	// TestMaterial();
+	TestCubeMap();
 	return 0;
 }
 
