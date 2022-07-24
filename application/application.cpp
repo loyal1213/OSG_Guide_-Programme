@@ -50,6 +50,10 @@
 #include "5_3_5 聚光灯示例.hpp"
 #include "5_4_2 材质类示例.hpp"
 #include "5_2_13 立方体图纹理.hpp"
+#include "5_2_9 自动生成纹理坐标.hpp"
+#include "5_2_11 计算纹理坐标.hpp"
+#include "6_2_4 文件读写进度.hpp"
+
 int _tmain(int argc, char* argv[])
 {
 	// test_osgviewer();
@@ -99,7 +103,10 @@ int _tmain(int argc, char* argv[])
 	// Test3DTextureMap();
 	// TestSpotLight();
 	// TestMaterial();
-	TestCubeMap();
+	// TestCubeMap();
+	// TestTexGen();
+	// TestComputingTextureCoordinates();
+	TestProgress();
 	return 0;
 }
 

@@ -105,6 +105,7 @@
     <ClInclude Include="4_5_5 三角带绘制.hpp" />
     <ClInclude Include="4_5_8 生成顶点法向量示例.hpp" />
     <ClInclude Include="5_1_4 渲染状态示例.hpp" />
+    <ClInclude Include="5_2_11 计算纹理坐标.hpp" />
     <ClInclude Include="5_2_13 立方体图纹理.hpp" />
     <ClInclude Include="5_2_17 一维纹理.hpp" />
     <ClInclude Include="5_2_2 二维纹理映射示例.hpp" />
@@ -112,9 +113,11 @@
     <ClInclude Include="5_2_3 多重纹理映射.hpp" />
     <ClInclude Include="5_2_4 多重纹理映射示例.hpp" />
     <ClInclude Include="5_2_6 Mipmap 纹理映射示例.hpp" />
+    <ClInclude Include="5_2_9 自动生成纹理坐标.hpp" />
     <ClInclude Include="5_3_4 简单光源示例.hpp" />
     <ClInclude Include="5_3_5 聚光灯示例.hpp" />
     <ClInclude Include="5_4_2 材质类示例.hpp" />
+    <ClInclude Include="6_2_4 文件读写进度.hpp" />
     <ClInclude Include="7_3_2 节点回调示例.hpp" />
     <ClInclude Include="7_3_3 事件回调示例.hpp" />
     <ClInclude Include="8_2_2 键盘事件消息处理.hpp" />
