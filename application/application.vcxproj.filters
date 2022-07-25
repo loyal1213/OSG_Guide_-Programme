@@ -183,6 +183,12 @@
     <ClInclude Include="6_2_4 文件读写进度.hpp">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="7_2_3 顶点访问器示例.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="7_2_4 纹理访问器示例.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <None Include="ReadMe.txt" />

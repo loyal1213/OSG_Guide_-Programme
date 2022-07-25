@@ -53,6 +53,7 @@
 #include "5_2_9 自动生成纹理坐标.hpp"
 #include "5_2_11 计算纹理坐标.hpp"
 #include "6_2_4 文件读写进度.hpp"
+#include "7_2_3 顶点访问器示例.h"
 
 int _tmain(int argc, char* argv[])
 {
@@ -106,7 +107,8 @@ int _tmain(int argc, char* argv[])
 	// TestCubeMap();
 	// TestTexGen();
 	// TestComputingTextureCoordinates();
-	TestProgress();
+	// TestProgress();
+	TestVertexNodeVisitor();
 	return 0;
 }
 

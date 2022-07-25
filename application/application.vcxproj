@@ -118,6 +118,8 @@
     <ClInclude Include="5_3_5 聚光灯示例.hpp" />
     <ClInclude Include="5_4_2 材质类示例.hpp" />
     <ClInclude Include="6_2_4 文件读写进度.hpp" />
+    <ClInclude Include="7_2_3 顶点访问器示例.h" />
+    <ClInclude Include="7_2_4 纹理访问器示例.hpp" />
     <ClInclude Include="7_3_2 节点回调示例.hpp" />
     <ClInclude Include="7_3_3 事件回调示例.hpp" />
     <ClInclude Include="8_2_2 键盘事件消息处理.hpp" />
