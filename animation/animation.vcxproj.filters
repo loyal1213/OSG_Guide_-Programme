@@ -16,12 +16,18 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="ReadMe.txt" />
+    <None Include="1_1_1 osgearth二维显示.hpp">
+      <Filter>头文件</Filter>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stdafx.h">
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="1_1_2 osgearth三维显示.hpp">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
