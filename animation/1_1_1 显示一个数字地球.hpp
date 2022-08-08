@@ -26,6 +26,7 @@ void AddAnno(std::string filePath, osg::ref_ptr<osgEarth::Map> map)
 
 	osgEarth::Symbology::TextSymbol* text = labelStyle.getOrCreateSymbol<osgEarth::Symbology::TextSymbol>();
 	string name = "[Name]";		//如果需要显示汉字，则需要转换成UTF-8编码
+
 	text->content() = osgEarth::Symbology::StringExpression(name);
 	text->priority() = osgEarth::NumericExpression( "[Popu]" );
 	text->size() = 16.0f;
@@ -34,7 +35,7 @@ void AddAnno(std::string filePath, osg::ref_ptr<osgEarth::Map> map)
 	text->halo()->color() = osgEarth::Symbology::Color::Red;
 	text->encoding() = osgEarth::Symbology::TextSymbol::ENCODING_UTF8;
 	
-	string fontFile = "../data/fonts/msyh.ttf";
+	string fontFile = "simhei.ttf";
 	text->font() = fontFile;			//如果显示汉字，需要支持中文字库的字体
 
 	// and configure a model layer:

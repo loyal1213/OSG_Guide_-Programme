@@ -41,6 +41,7 @@
     <LinkIncremental>true</LinkIncremental>
     <IncludePath>C:\Program Files (x86)\OsgEarth\osg\include;C:\Program Files (x86)\OsgEarth\3rdparty\include;C:\Program Files (x86)\OsgEarth\3rdparty\local\include;C:\Program Files (x86)\OsgEarth\osgearth\include;$(VCInstallDir)include;$(VCInstallDir)atlmfc\include;$(WindowsSdkDir)include;$(FrameworkSDKDir)\include;</IncludePath>
     <LibraryPath>C:\Program Files (x86)\OsgEarth\osg\lib;C:\Program Files (x86)\OsgEarth\3rdparty\lib;C:\Program Files (x86)\OsgEarth\3rdparty\local\lib;C:\Program Files (x86)\OsgEarth\osgearth\lib;$(VCInstallDir)lib;$(VCInstallDir)atlmfc\lib;$(WindowsSdkDir)lib;$(FrameworkSDKDir)\lib</LibraryPath>
+    <ExecutablePath>C:\Program Files (x86)\OsgEarth\3rdparty\bin;C:\Program Files (x86)\OsgEarth\osg\bin;C:\Program Files (x86)\OsgEarth\osg\share\OpenSceneGraph\bin;C:\Program Files (x86)\OsgEarth\osgearth\bin;$(VCInstallDir)bin;$(WindowsSdkDir)bin\NETFX 4.0 Tools;$(WindowsSdkDir)bin;$(VSInstallDir)Common7\Tools\bin;$(VSInstallDir)Common7\tools;$(VSInstallDir)Common7\ide;$(ProgramFiles)\HTML Help Workshop;$(FrameworkSDKDir)\bin;$(MSBuildToolsPath32);$(VSInstallDir);$(SystemRoot)\SysWow64;$(FxCopDir);$(PATH);</ExecutablePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <LinkIncremental>false</LinkIncremental>
@@ -81,6 +82,12 @@
     <None Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="8_1_2 裁剪平面示例(一).hpp" />
+    <ClInclude Include="8_1_3 裁剪平面示例(二).hpp" />
+    <ClInclude Include="8_1_4 单视图与相机.hpp" />
+    <ClInclude Include="8_1_6 单视图多相机渲染示例.hpp" />
+    <ClInclude Include="8_1_7 多视图与相机.hpp" />
+    <ClInclude Include="8_1_9 多视图多窗口渲染示例.hpp" />
     <ClInclude Include="Compass.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />

@@ -30,6 +30,9 @@
     <ClInclude Include="1_1_2 二维显示.hpp">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="TestTriangleFunctor.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">

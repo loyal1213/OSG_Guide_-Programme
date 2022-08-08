@@ -83,6 +83,7 @@
     <ClInclude Include="1_1_2 二维显示.hpp" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
+    <ClInclude Include="TestTriangleFunctor.hpp" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="animation.cpp" />

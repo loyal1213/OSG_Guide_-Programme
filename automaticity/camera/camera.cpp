@@ -4,8 +4,12 @@
 #include "stdafx.h"
 #include "第27讲 相机基础.hpp"
 #include "Compass.h"
-
-
+#include "8_1_7 多视图与相机.hpp"
+#include "8_1_4 单视图与相机.hpp"
+#include "8_1_6 单视图多相机渲染示例.hpp"
+#include "8_1_9 多视图多窗口渲染示例.hpp"
+#include "8_1_2 裁剪平面示例(一).hpp"
+#include "8_1_3 裁剪平面示例(二).hpp"
 osg::MatrixTransform * createCompassPart(const std::string &image, float radius, float height)
 {
 	osg::Vec3 center(-radius, -radius, height);
@@ -27,8 +31,6 @@ void TestCompass(){
 	osg::ref_ptr<osgViewer::Viewer> viewer = new osgViewer::Viewer();
 	osg::ref_ptr<osg::Group> group = new osg::Group();
 	osg::ref_ptr<osg::Node> node = osgDB::readNodeFile("glider.osg");
-
-	
 
 
 	osg::ref_ptr<Compass> compass = new Compass;
@@ -64,8 +66,12 @@ int _tmain(int argc, _TCHAR* argv[])
 
 
 	// TestCamera();
-	TestCompass();
-	
+	// TestCompass();
+	// TestCompositeViewer();
+	// TestSingleCameras();
+	// TestSingleViewMultipleCamera();
+	// TestMultipleViewMultipleWindows();
+	TestClipPlane1();
 	return 0;
 }
 

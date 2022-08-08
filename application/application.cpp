@@ -108,7 +108,8 @@ int _tmain(int argc, char* argv[])
 	// TestTexGen();
 	// TestComputingTextureCoordinates();
 	// TestProgress();
-	TestVertexNodeVisitor();
+	// TestVertexNodeVisitor();
+	TestTravelManipulator();
 	return 0;
 }
 

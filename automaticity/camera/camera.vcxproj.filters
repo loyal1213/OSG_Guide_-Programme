@@ -30,6 +30,24 @@
     <ClInclude Include="Compass.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="8_1_7 多视图与相机.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="8_1_4 单视图与相机.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="8_1_6 单视图多相机渲染示例.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="8_1_9 多视图多窗口渲染示例.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="8_1_2 裁剪平面示例(一).hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="8_1_3 裁剪平面示例(二).hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">

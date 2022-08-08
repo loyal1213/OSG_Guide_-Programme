@@ -21,12 +21,12 @@ void TestTravelManipulator(){
 	osg::ref_ptr<osgViewer::Viewer> viewer = new osgViewer::Viewer();
 
 	// 将漫游器加入到场景中
-	TravelManipulator::TravelToScreen(viewer.get());
+	TravelManipulator::TravelToScene(viewer.get());
 
 	osg::ref_ptr<osg::Group> root = new osg::Group();
 
-	// 读取模型
-	osg::ref_ptr<osg::Node> node = osgDB::readNodeFile("cow.osg");
+	// 读取地形模型
+	osg::ref_ptr<osg::Node> node = osgDB::readNodeFile("lz.osg");
 
 	root->addChild(node.get());
 
