@@ -48,6 +48,60 @@
     <ClInclude Include="8_1_3 裁剪平面示例(二).hpp">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="14.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="16.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="18.2.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="22.2.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="25.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="27.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="31.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="32.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="33.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="34.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="35.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="37.1.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="37.2.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="39.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="09.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="10.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="12.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="13.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">

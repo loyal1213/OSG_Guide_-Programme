@@ -10,6 +10,9 @@
 #include "8_1_9 多视图多窗口渲染示例.hpp"
 #include "8_1_2 裁剪平面示例(一).hpp"
 #include "8_1_3 裁剪平面示例(二).hpp"
+
+
+#include "13.hpp"
 osg::MatrixTransform * createCompassPart(const std::string &image, float radius, float height)
 {
 	osg::Vec3 center(-radius, -radius, height);
@@ -69,9 +72,11 @@ int _tmain(int argc, _TCHAR* argv[])
 	// TestCompass();
 	// TestCompositeViewer();
 	// TestSingleCameras();
-	// TestSingleViewMultipleCamera();
+	//TestSingleViewMultipleCamera();
 	// TestMultipleViewMultipleWindows();
-	TestClipPlane1();
+	// TestClipPlane1();
+	// Test37_2();
+	Test13();
 	return 0;
 }
 

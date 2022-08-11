@@ -52,8 +52,8 @@ void singleWindowMultipleCameras(osg::ref_ptr<osgViewer::Viewer> viewer)
 	//设置图形设备的尺寸
 	traits->x = 0;
 	traits->y = 0;
-	traits->width = width;
-	traits->height = height;
+	traits->width = 1000;
+	traits->height = 1000;
 	//显示标题栏
 	traits->windowDecoration = true;
 	traits->doubleBuffer = true;
@@ -66,7 +66,7 @@ void singleWindowMultipleCameras(osg::ref_ptr<osgViewer::Viewer> viewer)
 	{
 		osg::notify(osg::INFO) << "GraphicsWindow has been created successfully." << std::endl;
  
-		gc->setClearColor(osg::Vec4f(0.2f, 0.2f, 1.6f, 1.0f));
+		gc->setClearColor(osg::Vec4f(0.2f, 0.2f, 0.6f, 1.0f));
 		gc->setClearMask(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 	}
 	else
@@ -125,6 +125,8 @@ int TestSingleViewMultipleCamera()
 	osgUtil::Optimizer optimizer;
 	optimizer.optimize(root.get());
  
+	viewer->getCamera()->setNodeMask(1);
+
 	viewer->setSceneData(root.get());
 	viewer->realize();
  
